@@ -7,7 +7,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="border border-gray-300 shadow-lg bg-slate-50 font-serif" >
+    <div className="border border-gray-300 shadow-lg bg-slate-50 font-serif " >
       <div className="flex justify-between p-4 ">
         <div className="flex gap-3">
           <img src="/public/KLM logo.JPG" alt="logo" className="h-8 mt-7" />
@@ -31,16 +31,16 @@ const Navbar = () => {
 
       <nav className="flex flex-col sm:flex-row items-center justify-between text-black p-[10px] rounded-sm w-full border-gray-300 shadow-md">
         <div className={`sm:flex ${isMenuOpen ? 'block' : 'hidden'} sm:block w-full`}>
-          <Link to="/" className="block sm:inline-block p-2">
+          <Link to="/" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             Home
           </Link>
-          <Link to="/check-in" className="block sm:inline-block p-2">
+          <Link to="/check-in" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             Check-In
           </Link>
-          <Link to="/my trip" className="block sm:inline-block p-2">
+          <Link to="/my trip" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             My Trip
           </Link>
-          <Link to="/information" className="block sm:inline-block p-2">
+          <Link to="/information" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             Information
           </Link>
         </div>

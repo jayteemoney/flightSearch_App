@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 import Destination from '../components/home/destination';
 import Trends from '../components/home/trends';
+import Services from '../components/home/services';
+import Loginhome from '../components/home/login';
+import Footer from '../components/home/footer';
+
 
 const Home = () => {
   // State for managing flight data, selected airport, and loading states
@@ -148,7 +152,12 @@ const Home = () => {
   </div>
   <Destination/>
   <Trends />
+  <Services/>
+  <Loginhome />
+  <Footer />
+
   </div>
+ 
   );
 
 };

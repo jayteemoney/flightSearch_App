@@ -8,7 +8,7 @@ const Destination = () => {
           alt="destination"
           className="max-w-full h-[400px] mx-auto transition duration-100 ease-in-out hover:scale-105 rounded-[10px] hover:cursor-pointer"
         />
-        <button className="border border-blue-500 rounded-[10px] p-[10px] bg-blue-300 mt-4 text-bold">
+        <button className="border border-blue-900 rounded-[10px] p-[12px] bg-blue-200 mt-[20px] mb-10 sm:mt-[20px] text-bold text-center w-full sm:w-auto">
           Discover promo reward tickets
         </button>
       </div>
