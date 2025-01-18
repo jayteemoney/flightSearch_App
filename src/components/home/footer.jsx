@@ -6,7 +6,7 @@ const Footer = () => {
     return (  
         <>
         <div className="flex items-center justify-center">
-        <nav className="flex flex-col mt-[100px] bg-blue-100 sm:flex-row items-center justify-between text-blue-400 p-[10px] rounded-[5px] w-[1200px] border-gray-300 shadow-md">
+        <nav className="flex flex-col mt-[100px] bg-blue-50 sm:flex-row items-center justify-between text-blue-400 p-[10px] rounded-[5px] w-[1200px] border-gray-300 shadow-md">
         
           <Link to="/" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             Legal Information

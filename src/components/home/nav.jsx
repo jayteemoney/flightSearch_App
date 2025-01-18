@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link to="/check-in" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             Check-In
           </Link>
-          <Link to="/my trip" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
+          <Link to="/my-trip" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
             My Trip
           </Link>
           <Link to="/information" className="block sm:inline-block p-2 hover:underline decoration-blue-300">
