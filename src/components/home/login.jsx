@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Loginhome = () => {
     return (
       <>
@@ -10,9 +11,11 @@ const Loginhome = () => {
               Sign up here to receive personalized offers and travel inspiration
               right in your inbox
             </p>
-            <button className="border border-blue-900 rounded-[10px] p-[12px] mt-4 sm:mt-0 text-bold text-center w-full sm:w-auto">
+            <Link to="https://www.klm.com.ng/subscription/subscribe">
+            <button className="border border-blue-900 rounded-[10px] p-[12px] hover:bg-blue-300 mt-4 sm:mt-0 text-bold text-center w-full sm:w-auto">
               Sign up now
             </button>
+            </Link>
           </div>
         </div>
       </>

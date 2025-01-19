@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Destination = () => {
     return (  
+   <Link to="https://www.flyingblue.com/en/spend/flights/rewards?country=NG">
       <div className="flex flex-col justify-center items-center min-h-screen text-center mt-[100px]">
         <h3 className="text-blue-950 text-3xl mt-5 font-bold">Destination and deals</h3>
         <p className="my-[20px] ">Explore the world with Miles. Book your reward tickets here</p>
@@ -12,6 +15,7 @@ const Destination = () => {
           Discover promo reward tickets
         </button>
       </div>
+   </Link>
     );
   }
   

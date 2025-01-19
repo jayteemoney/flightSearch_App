@@ -1,10 +1,9 @@
 import Footer from "../components/home/footer";
 import Contact from "../components/my trip/input";
-
 const MyTrip = () => {
     return (  
         <>
-        <div>
+        <div >
             <Contact />
             <Footer />
         </div>

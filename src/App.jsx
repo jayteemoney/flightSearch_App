@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CheckIn from './pages/checkIn';
 import MyTrip from './pages/myTrip';
 import Information from './pages/information';
 import Home from './pages/home';
@@ -25,7 +24,6 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/check-in" element={<CheckIn />} />
             <Route path="/my-trip" element={<MyTrip />} />
             <Route path="/information" element={<Information />} />
           </Routes>

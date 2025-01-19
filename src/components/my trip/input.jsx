@@ -31,7 +31,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-white flex gap-[80px] justify-around mt-[2px]">
+    <div className="bg-white flex gap-[80px] justify-around mt-[2px] font-serif text-3xl">
       <div className="sm:block md:block lg:flex justify-center mb-10">
         {/* Image Section (hidden on small screens) */}
         <div className="lg:w-[40vw] h-[80vh] mb-5 hidden lg:block">
@@ -42,9 +42,9 @@ function Contact() {
         </div>
 
         {/* Card Section */}
-        <div className="lg:w-[40vw] sm:w-full h-auto px-5 py-6 border rounded-lg shadow-lg">
-          <h2 className="text-center font-bold text-[24px] mb-4">Your Trip</h2>
-          <p className="text-center text-gray-700 text-[14px] mb-6">Log in to view and manage your trip</p>
+        <div className="lg:w-[40vw] sm:w-full h-auto px-10 py-6  rounded-lg ">
+          <h2 className="text-center font-bold text-[30px] mb-4">Your Trip</h2>
+          <p className="text-center text-gray-700 text-[20px] mb-6">Log in to view and manage your trip</p>
 
           <button
             className="w-full flex items-center justify-between bg-blue-500 text-white p-3 rounded-md mb-4 hover:bg-blue-600"
@@ -55,7 +55,7 @@ function Contact() {
             <span className="text-2xl">›</span>
           </button>
 
-          <p className="text-center text-gray-600 text-[12px] mb-6">Log in with booking details</p>
+          <p className="text-center text-gray-600 text-[20px] mb-6">Log in with booking details</p>
 
           {/* Render form only if isLoggedIn is true */}
           {isLoggedIn && (
@@ -124,7 +124,7 @@ function Contact() {
               <input
                 type="submit"
                 value="Sign Up"
-                className="w-full p-[9px] border-none rounded-[10px] bg-red-950 hover:bg-red-800 text-white"
+                className="w-full p-[9px] border-none rounded-[10px] bg-blue-300 hover:bg-blue-350 text-white hover:cursor-pointer"
               />
             </form>
           )}
