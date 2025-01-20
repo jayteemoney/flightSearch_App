@@ -12,7 +12,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic17.JPG"
+                  src="/public/images/pic17.JPG"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto "
                 />
@@ -27,7 +27,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic18.JPG"
+                  src="/public/images/pic18.JPG"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto "
                 />
@@ -42,7 +42,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic19.JPG"
+                  src="/public/images/pic19.JPG"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto "
                 />
@@ -57,7 +57,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 h-[300px] border transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic20.JPG"
+                  src="/public/images/pic20.JPG"
                   alt="destination"
                   className="w-[50px] h-[50px] mx-auto"
                 />
@@ -72,7 +72,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic21.JPG"
+                  src="/public/images/pic21.JPG"
                   alt="destination"
                   className="w-[100px] h-[190px] mx-auto"
                 />
@@ -87,7 +87,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic22.JPG"
+                  src="/public/images/pic22.JPG"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto"
                 />
@@ -102,7 +102,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/pic23.JPG"
+                  src="/public/images/pic23.JPG"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto"
                 />

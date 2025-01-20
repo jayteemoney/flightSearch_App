@@ -8,7 +8,7 @@ const Trends = () => {
           <Link to="https://www.klm.com.ng/travel-guide/destinations">
           <div className="border-blue-950 border transition duration-100 ease-in-out w-[460px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer items-center">
             <img 
-              src="/public/pic1.JPG" 
+              src="/public/images/pic1.JPG" 
               alt="destination"
               className="max-w-full h-[300px] mx-auto "
             />
@@ -19,7 +19,7 @@ const Trends = () => {
           <Link to="https://login.klm.com/enrol/flyingblue">
           <div className="border-blue-950 border transition duration-100 ease-in-out w-[460px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer items-center">
             <img 
-              src="/public/pic2.JPG" 
+              src="/public/images/pic2.JPG" 
               alt="destination"
               className="max-w-full h-[300px] mx-auto "
             />
@@ -31,7 +31,7 @@ const Trends = () => {
           <div className="border-blue-950 border transition duration-100 ease-in-out w-[460px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer items-center">
   
            <img 
-             src="/public/pic3.JPG" 
+             src="/public/images/pic3.JPG" 
              alt="destination"
              className="max-w-full h-[300px] mx-auto "
            />
@@ -42,7 +42,7 @@ const Trends = () => {
           <Link to="https://www.klm.com.ng/deals?cabin=BUSINESS">
           <div className="border-blue-950 border transition duration-100 ease-in-out w-[460px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer items-center">
             <img 
-              src="/public/pic4.JPG" 
+              src="/public/images/pic4.JPG" 
               alt="destination"
               className="max-w-full h-[300px] mx-auto "
             />
