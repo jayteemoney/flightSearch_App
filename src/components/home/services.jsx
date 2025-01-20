@@ -12,7 +12,7 @@ const Services = () => {
         <div className="bg-slate-100 border-blue-950 border transition duration-100 ease-in-out w-[260px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer">
           <div className="flex flex-col items-center">
             <img
-              src="/public/images/images/pic5.jpg"
+              src="/images/images/pic5.jpg"
               alt="destination"
               className="w-[80px] h-[80px] mx-auto rounded-[50%]"
             />
@@ -29,7 +29,7 @@ const Services = () => {
         <div className="bg-slate-100 border-blue-950 border transition duration-100 ease-in-out w-[260px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer">
           <div className="flex flex-col items-center">
             <img
-              src="/public/images/images/pic6.jpg"
+              src="/images/images/pic6.jpg"
               alt="destination"
               className="w-[80px] h-[80px] mx-auto rounded-[50%]"
             />
@@ -46,7 +46,7 @@ const Services = () => {
         <div className="bg-slate-100 border-blue-950 border transition duration-100 ease-in-out w-[260px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer">
           <div className="flex flex-col items-center">
             <img
-              src="/public/images/images/pic7.jpg"
+              src="/images/images/pic7.jpg"
               alt="destination"
               className="w-[80px] h-[80px] mx-auto rounded-[50%]"
             />
@@ -64,7 +64,7 @@ const Services = () => {
         <div className="bg-slate-100 border-blue-950 border transition duration-100 ease-in-out w-[260px] shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer">
           <div className="flex flex-col items-center">
             <img
-              src="/public/images/images/pic8.jpg"
+              src="/images/images/pic8.jpg"
               alt="destination"
               className="w-[60px] h-[60px] mx-auto rounded-[50%]"
             />
