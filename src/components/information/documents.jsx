@@ -87,7 +87,7 @@ const Documents = () => {
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
                 <img
-                  src="/public/images/images/pic22.jpg"
+                  src="/images/images/pic22.jpg"
                   alt="destination"
                   className="w-[100px] h-[100px] mx-auto"
                 />
