@@ -36,7 +36,7 @@ function Contact() {
         {/* Image Section (hidden on small screens) */}
         <div className="lg:w-[40vw] h-[80vh] mb-5 hidden lg:block">
           <img
-            src="/public/pic9.JPG"
+            src="/public/images/images/pic9.jpg"
             className="object-cover rounded-[20px] shadow-[10px_10px_10px_rgba(0,0,0,0.5)] w-full h-full transition-transform duration-300 transform hover:scale-100"
           />
         </div>

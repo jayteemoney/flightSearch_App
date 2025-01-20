@@ -18,7 +18,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic10.JPG"
+                src="/public/images/images/pic10.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto "
               />
@@ -34,7 +34,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic11.JPG"
+                src="/public/images/images/pic11.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto "
               />
@@ -50,7 +50,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic12.JPG"
+                src="/public/images/images/pic12.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto "
               />
@@ -66,7 +66,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 h-[300px] border transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic13.JPG"
+                src="/public/images/images/pic13.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto"
               />
@@ -82,7 +82,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic14.JPG"
+                src="/public/images/images/pic14.jpg"
                 alt="destination"
                 className="w-[100px] h-[190px] mx-auto"
               />
@@ -97,7 +97,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic15.JPG"
+                src="/public/images/images/pic15.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto"
               />
@@ -112,7 +112,7 @@ const Booking = () => {
           <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
-                src="/public/images/pic16.JPG"
+                src="/public/images/images/pic16.jpg"
                 alt="destination"
                 className="w-[100px] h-[100px] mx-auto"
               />

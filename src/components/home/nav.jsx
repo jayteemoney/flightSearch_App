@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="border border-gray-300 shadow-lg bg-slate-50 font-serif " >
       <div className="flex justify-between p-4 ">
         <div className="flex gap-3">
-          <img src="/public/images/KLM logo.JPG" alt="logo" className="h-8 mt-7" />
+          <img src="/public/images/KLM logo.jpg" alt="logo" className="h-8 mt-7" />
           <p className="mt-9 text-[20px] text-blue-400">Royal Dutch Airlines</p>
         </div>
         <Link to=''>
