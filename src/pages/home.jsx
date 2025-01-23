@@ -22,9 +22,7 @@ const Home = () => {
   useEffect(() => {
     const fetchFlights = async () => {
       try {
-        const response = await fetch(
-          'https://api.aviationstack.com/v1/flights?access_key=9f1f79c5fab08fb36fc13220275e4d2a'
-        );
+        const response = await fetch('https://api.aviationstack.com/v1/flights?access_key=9f1f79c5fab08fb36fc13220275e4d2a');
         const data = await response.json();
 
         if (data.data && data.data.length > 0) {
@@ -76,10 +74,16 @@ const Home = () => {
       console.error("Please select both departure and arrival locations.");
     }
   };
+  const handleBookNow = (index) => {
+    setFilteredFlights((prevFlights) =>
+      prevFlights.filter((_, i) => i !== index)
+    );
+  };
+  
 
   return (
     <div className='px-[40px] font-serif'>
-      <div className="max-w-[1200px] mt-[240px] mx-auto p-6 bg-white rounded-lg shadow-lg">
+      <div className="max-w-[800px] mt-[100px] mx-auto p-6 bg-white rounded-lg shadow-lg">
         <div className="flex items-center gap-4 border border-gray-300 w-[180px] h-[50px] rounded-[10px] hover:cursor-pointer hover:text-blue-400">
           <i className="fa fa-fighter-jet" aria-hidden="true"></i>
           <h1 className="text-[17px] w-[140px] py-2 font-bold mb-6 mt-4">Book a flight</h1>
@@ -170,17 +174,24 @@ const Home = () => {
                 <div className="grid grid-cols-1 shadow-black shadow-md md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {filteredFlights.map((flight, index) => (
                     <div
-                      key={index}
-                      className="border p-4 rounded-lg shadow-md hover:bg-blue-50"
+                    key={index}
+                    className="border p-4 rounded-lg shadow-md hover:bg-blue-50 font-serif w-[400px]"
+                  >
+                    <h3 className="text-lg font-bold">
+                      {flight.departure?.airport} to {flight.arrival?.airport}
+                    </h3>
+                    <p>Flight Number: {flight.flight?.number}</p>
+                    <p>Date: {flight.flight_date}</p>
+                    <p>Departure Time: {flight.departure?.scheduled}</p>
+                    <p>Arrival Time: {flight.arrival?.scheduled}</p>
+                    <button
+                      className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
+                      onClick={() => handleBookNow(index)}
                     >
-                      <h3 className="text-lg font-bold">
-                        {flight.departure?.airport} to {flight.arrival?.airport}
-                      </h3>
-                      <p>Flight Number: {flight.flight?.number}</p>
-                      <p>Date: {flight.flight_date}</p>
-                      <p>Departure Time: {flight.departure?.scheduled}</p>
-                      <p>Arrival Time: {flight.arrival?.scheduled}</p>
-                    </div>
+                      Book Now
+                    </button>
+                  </div>
+                  
                   ))}
                 </div>
                 {filteredFlights.some(
