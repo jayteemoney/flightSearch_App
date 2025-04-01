@@ -10,7 +10,7 @@ const Services = () => {
       <div className="flex flex-wrap justify-center gap-6 mb-6">
         {/* Service Card 1 */}
         <Link to="https://www.klm-mobility.com/en/home?clientId=597145#/searchcars">
-          <div className="bg-slate-100 border-blue-950 border w-[260px] shadow-black shadow-md rounded-[10px] hover:cursor-pointer p-4">
+          <div className="bg-slate-100 border-blue-900 border w-[260px] shadow-black shadow-md rounded-[10px] hover:cursor-pointer p-4">
             <div className="flex flex-col items-center">
               <img
                 src="/images/images/pic5.jpg"

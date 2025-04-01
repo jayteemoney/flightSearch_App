@@ -44,7 +44,7 @@ function Contact() {
         {/* Card Section */}
         <div className="lg:w-[40vw] sm:w-full h-auto px-10 py-6  rounded-lg ">
           <h2 className="text-center font-bold text-[30px] mb-4">Your Trip</h2>
-          <p className="text-center text-gray-700 text-[20px] mb-6">Log in to view and manage your trip</p>
+          <p className="text-center text-gray-750 text-[20px] mb-6">Log in to view and manage your trip</p>
 
           <button
             className="w-full flex items-center justify-between bg-blue-500 text-white p-3 rounded-md mb-4 hover:bg-blue-600"

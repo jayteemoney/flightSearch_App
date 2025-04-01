@@ -7,7 +7,7 @@ const Documents = () => {
           </h4>
   
           {/* Service Cards Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+          <div className="">
             {/* Service Card 1 */}
             <div className="bg-slate-50 border-blue-950 border h-[300px] transition duration-100 ease-in-out w-full shadow-black shadow-md hover:scale-105 rounded-[10px] hover:cursor-pointer p-4">
               <div className="flex flex-col items-center">
