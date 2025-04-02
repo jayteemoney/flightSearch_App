@@ -78,7 +78,8 @@ const Services = () => {
                 Stay connected, anytime
               </h4>
               <p className="mt-4 text-center">
-                Want to be online while travelling? Choose a data bundle and earn miles.
+                Want to be online while travelling? Choose a data bundle and
+                earn miles.
               </p>
             </div>
           </div>
